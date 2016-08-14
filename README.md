@@ -1,6 +1,6 @@
-# stylelint-config-standard
+# stylelint-config-polymer
 
-> The standard shareable config for Polymer elements.
+> The shareable stylelint config for Polymer elements.
 
 ## Installation
 
