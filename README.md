@@ -10,7 +10,7 @@ $ npm install stylelint-config-polymer
 
 ## Usage
 
-Set your stylelint config to::
+Set your stylelint config to:
 
 ```json
 {
@@ -21,7 +21,7 @@ Set your stylelint config to::
 
 **Note:** you need to install [stylelint-processor-html](https://github.com/ccbikai/stylelint-processor-html) to lint inline styles.
 
-### Extending the config
+## Extending the config
 
 Simply add a `"rules"` key to your config, then add your overrides and additions there.
 
@@ -38,7 +38,7 @@ For example, to change the indentation to tabs and turn off the `number-leading-
 }
 ```
 
-#### Used additions
+## Description of used additions
 
 `stylelint-config-polymer` is based on [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) with some additions:
 
