@@ -14,9 +14,12 @@ Set your stylelint config to::
 
 ```json
 {
-  "extends": "stylelint-config-polymer"
+  "extends": "stylelint-config-polymer",
+  "processors": [ "stylelint-processor-html" ]
 }
 ```
+
+**Note:** you need to install [stylelint-processor-html](https://github.com/ccbikai/stylelint-processor-html) to lint inline styles.
 
 ### Extending the config
 
