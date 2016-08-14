@@ -40,7 +40,7 @@ For example, to change the indentation to tabs and turn off the `number-leading-
 
 - [selector-type-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-type-no-unknown) is configured to match Custom Elements selectors
 - [selector-pseudo-class-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-pseudo-class-no-unknown) is configured to ignore `:host` selector
-- [selector-pseudo-element-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-pseudo-element-no-unknown) is configured to ignore `:content` and `::shadow` selectors
+- [selector-pseudo-element-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-pseudo-element-no-unknown) is configured to ignore `::content` and `::shadow` selectors
 
 ## [Changelog](CHANGELOG.md)
 
