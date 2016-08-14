@@ -30,6 +30,7 @@ For example, to change the indentation to tabs and turn off the `number-leading-
 ```json
 {
   "extends": "stylelint-config-polymer",
+  "processors": [ "stylelint-processor-html" ],
   "rules": {
     "indentation": "tab",
     "number-leading-zero": null
