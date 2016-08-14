@@ -1,0 +1,47 @@
+{
+  "name": "stylelint-config-polymer",
+  "version": "0.0.1",
+  "description": "shareable stylelint config for Polymer elements",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "polymer"
+  ],
+  "author": "Sergey Kulikov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-padawan/stylelint-config-polymer.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "eslint": "^3.1.1",
+    "eslint-config-stylelint": "^3.0.0",
+    "npmpub": "^3.0.1",
+    "stylelint": "^7.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.1.0"
+  },
+  "scripts": {
+    "ava": "ava --verbose \"__tests__/**/*.js\"",
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "npm run lint",
+    "release": "npmpub",
+    "test": "npm run ava"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "stylelint"
+    ]
+  }
+}
