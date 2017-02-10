@@ -1,6 +1,6 @@
 # stylelint-config-polymer
 
-> The shareable stylelint config for Polymer elements.
+> The shareable stylelint config for Polymer elements. Extends from `stylelint-config-standard`
 
 ## Installation
 
@@ -42,9 +42,12 @@ For example, to change the indentation to tabs and turn off the `number-leading-
 
 `stylelint-config-polymer` is based on [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) with some additions:
 
-- [selector-type-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-type-no-unknown) is configured to match Custom Elements selectors
-- [selector-pseudo-class-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-pseudo-class-no-unknown) is configured to ignore `:host` selector
-- [selector-pseudo-element-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-pseudo-element-no-unknown) is configured to ignore `::content` and `::shadow` selectors
+-   [selector-type-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-type-no-unknown) is configured to match Custom Elements selectors
+-   [selector-pseudo-class-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-pseudo-class-no-unknown) is configured to ignore `:host` and `:host-context` selector
+-   [selector-pseudo-element-no-unknown](https://github.com/stylelint/stylelint/tree/master/src/rules/selector-pseudo-element-no-unknown) is configured to ignore `::content`, `::slotted` and `::shadow` selectors
+
+**Note**: `::shadow` support will be dropped in the 2.0 release, as it is deprecated. Please do not use it unless you really need.
+
 
 ## [Changelog](CHANGELOG.md)
 
